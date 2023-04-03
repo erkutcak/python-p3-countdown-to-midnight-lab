@@ -1,4 +1,4 @@
-from time import sleep
+import time
 
 def countdown(integer):
     i = integer
@@ -12,5 +12,5 @@ def countdown_with_sleep(integer):
     while i > 0:
         print(f"{i} SECOND(S)!")
         i -= 1
-        sleep(1)
+        time.sleep(1)
     print("HAPPY NEW YEAR!")
